@@ -21,11 +21,31 @@ var result = woodCalculator(3,3,3);
 console.log = (result);
 
 
+
 //brickCalculator//
 
-function brickCalculator()
+function brickCalculator(floor10, floor20, floor30){
+
+    var feet = 1000;
+
+    var floor10 = feet * 15 * 10;
+    var brickTotal10 =1000 * 150;
+    console.log=(brickTotal10);
 
 
+    var floor20 = feet * 12 * 10;
+    var brickTotal20 = 1000 * 120;
+    console.log=(brickTotal20);
+
+
+    floor30 = feet * 10 * 10;
+    var brickTotal30 = 1000 * 10 * 10;
+    console.log=(brickTotal30);
+
+
+    var totalBrick = brickTotal10 + brickTotal20 + brickTotal30;
+
+    console.log = (totalBrick);}
 
 
 
@@ -39,5 +59,5 @@ function tinyFrind (names){
     }
 return myFriend;
 
-var result = tinyFrind(["nilima","tumpa","shamim","shuvo","sohel","kas"]);
+var result = tinyFrind(["shamim","shuvo","sohel","kas"]);
 console.log = (result);                                       
